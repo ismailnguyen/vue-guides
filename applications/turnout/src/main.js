@@ -26,7 +26,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
         router.push('/dashboard')
     }
     else {
-        //router.replace('/signin') TOTO replace by commenting back in
+        router.replace('/signin')
     }
 })
 
